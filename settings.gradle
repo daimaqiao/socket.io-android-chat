@@ -1,1 +1,8 @@
 include ':app'
+
+// in the parent folder, clone the daimaqiao's repo branch of 'local_edit' using this command:
+//   git clone -b local_edit https://github.com/daimaqiao/socket.io-client-java.git
+// uncomment theses lines to compile socket.io-client-java as project sources instead of external lib
+// also, edit the app's build.gradle section for project ':socket.io-client-java'
+//include ':socket.io-client-java'
+//project(':socket.io-client-java').projectDir= new File(settingsDir, '../socket.io-client-java')
